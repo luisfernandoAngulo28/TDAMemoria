@@ -1,0 +1,71 @@
+//---------------------------------------------------------------------------
+
+#ifndef UMemoriaH
+#define UMemoriaH
+//---------------------------------------------------------------------------
+#include <iostream>
+#include <string>
+using namespace std;
+/*
+Constantes MAX = 20
+ NULO =-1
+*/
+const int MAX=20;
+const int NULO=-1;
+/*
+NodoM
+ Dato TipoDato (Entero)
+ id cadena(12)
+ Link Direccion de Memoria(Entero)
+ Fin tipo
+*/
+
+struct NodoMem{
+	int dato;
+	string id;
+	int link;
+
+};
+
+
+/*
+clase CSMemoria
+
+ Métodos
+
+fin def clase   */
+class CSMemoria{
+//Atributos
+
+	private:
+	//MEM arreglo(MAX) de tipo NodoM
+	NodoMem* mem;
+	//libre,Direccion de memoria (entero)
+	int libre;
+	int dir;
+
+	public:
+	/*Constructor // crear
+ direccion new_espacio( cadena )
+ Delete_espacio(dir)
+ poner_dato(dir , cadena_id, valor)
+ TipoDato obtenerDato(dir, lugar)
+ entero Espacio_Disponible()
+entero Espacio_ocupado()
+ booleano dir_libre(dir)*/
+	 CSMemoria(); // crear
+  int new_espacio(string cadena);
+ void Delete_espacio(int dir);
+ void poner_dato(int dir ,string  cadena_id, int valor);
+ int obtenerDato(int dir, string lugar) ;
+ int Espacio_Disponible();
+int Espacio_ocupado();
+ bool dir_libre(int dir);
+ void mostrar();
+
+
+};
+
+
+
+#endif

@@ -1,0 +1,51 @@
+// ---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UMemoria.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+CSMemoria::CSMemoria() {
+	mem = new NodoMem[MAX];
+	for (int i = 0; i < MAX; i++) {
+		mem[i].link = i + 1;
+	}
+	mem[MAX - 1].link = -1;
+	this->libre = 0;
+} // crear
+
+int new_espacio(string cadena) {
+cant = Numero_Ids(Cadena)
+ DIR = LIBRE
+ D = LIBRE
+ PARA CADA I = 1 HASTA CANT -1
+ MEM[D].ID=Obtener_Id(cadena,i)
+ D = MEM [ D ].LINK
+ FIN PARA
+ LIBRE=MEM [ D ].LINK
+ MEM [ D ].LINK = -1
+ MEM[D].ID=Obtener_Id(cadena, cant)
+ // RETORNAR DIR
+}
+
+void CSMemoria::Delete_espacio(int dir) {
+}
+
+void CSMemoria::poner_dato(int dir, string cadena_id, int valor) {
+}
+
+int CSMemoria::obtenerDato(int dir, string lugar) {
+}
+
+int CSMemoria::Espacio_Disponible() {
+}
+
+int CSMemoria::Espacio_ocupado() {
+}
+
+bool CSMemoria::dir_libre(int dir) {
+}
+
+void CSMemoria::mostrar() {
+}

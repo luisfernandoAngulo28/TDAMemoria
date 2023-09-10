@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/09/09 11:13:41.000.477,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2023/09/09 11:13:42.000.721,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\File2.cpp</Transaction>
+    <Transaction>2023/09/09 11:16:08.000.427,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\2-2023\Memoria\main.cpp=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\File2.cpp</Transaction>
+    <Transaction>2023/09/09 11:16:12.000.616,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\2-2023\Memoria\Project1PCH1.h=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2023/09/09 11:16:16.000.135,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\2-2023\Memoria\Project1.cbproj=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2023/09/09 11:57:35.000.761,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\2-2023\Memoria\Unit1.cpp</Transaction>
+    <Transaction>2023/09/09 11:58:02.000.569,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\2-2023\Memoria\UMemoria.h=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\2-2023\Memoria\Unit1.h</Transaction>
+    <Transaction>2023/09/09 11:58:02.000.569,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\2-2023\Memoria\UMemoria.cpp=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\2-2023\Memoria\Unit1.cpp</Transaction>
+    <Transaction>2023/09/09 11:59:01.000.608,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\2-2023\Memoria\Unit1.cpp</Transaction>
+    <Transaction>2023/09/09 11:59:44.000.203,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\2-2023\Memoria\Unit2.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
